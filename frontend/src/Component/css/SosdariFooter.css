@@ -1,0 +1,10 @@
+.footer {
+    
+    background-color: #100e30;
+  }
+  .row{
+    display: flex;
+  }
+li{
+  text-decoration: none;
+}

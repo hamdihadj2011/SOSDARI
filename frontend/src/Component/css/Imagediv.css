@@ -1,0 +1,19 @@
+.we{
+  color: aliceblue;
+    display: flex;
+    justify-content: center;
+ margin-bottom: 2%;
+}
+.we1{
+    width:50%;
+
+}
+.we2{
+   padding:  10%;
+
+}
+@media screen and (max-width: 1015px) {
+   .we1{
+      display: none;
+   }
+ }

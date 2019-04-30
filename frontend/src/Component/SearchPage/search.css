@@ -1,0 +1,100 @@
+.search-container{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+     background: linear-gradient(rgba(0, 0, 0, 0.644), rgba(0,0,0,.7)), url("../images/forum-bricolage.jpg") no-repeat scroll left top / cover;
+        width: 100%;
+
+    /* width: 100%;
+    margin:0 auto;
+    margin-top: 25px;
+    max-width: 1200px; */
+}
+
+.filter-workers{
+    display: flex;
+    width: 71%;
+    flex-wrap: wrap;
+    margin-left: 22%;
+   
+}
+
+/* .filter-worker{
+    width: 25%;
+    border: 1px solid #000;
+    text-align: center;
+    padding: 15px;
+    margin:8px
+} */
+
+.filter{
+    /* position: fixed; */
+    /* top: 0;
+    left: 0; */
+    width: 20%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    background-color:#ff8800;
+    height: 100%;
+    border-radius: 15px;
+    margin-inline-start: 0.5%;
+}
+.filterworkergrid{
+    width: 80%;
+}
+.filter input{
+    border:none;
+    line-height: 2.5;
+    padding-left: 5%;
+    border-radius: 5px;
+    outline: none;
+}
+
+.found{
+animation: zoom infinite 1s ease-in-out 
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+    50% {
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+}
+.cardstyle{ width: 31%;
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 2%;}
+@media screen and (max-width: 1015px) {
+
+    .search-container{
+       display: flex;
+       flex-direction: column;
+    }
+    .filter{
+        /* position: fixed; */
+        /* top: 0;
+        left: 0; */
+        width: 100%;
+       
+    }
+    .filter-workers{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 1%;
+    }
+    .filterworkergrid{
+        width: 100%;
+    }
+    .cardstyle{ width: 100%;
+       }
+  }

@@ -1,0 +1,17 @@
+.complaintform{
+	
+	background: linear-gradient(rgba(0, 0, 0, 0.644), rgba(0,0,0,.7)), url("../images/forum-bricolage.jpg") no-repeat scroll left top / cover;
+    width: 100%;
+    
+    
+    padding: 90px;
+
+}
+.complaintformstyle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.568);
+    border-radius: 15px;
+}

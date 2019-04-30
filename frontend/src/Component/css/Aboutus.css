@@ -1,0 +1,226 @@
+.image-aboutus-banner {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../images/forum-bricolage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    padding-top: 110px;
+    padding-bottom:110px;
+ }
+ 
+  .image-aboutus-sm-banner {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../images/forum-bricolage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom:30px;
+ }
+.lg-text {
+    font-size:52px;
+    font-weight: 600;
+    text-transform: none;
+    color:#fff;
+}
+.image-aboutus-para {
+    color:#fff;
+}
+/**********************************/
+.aboutus-section {
+    padding: 90px 0;
+}
+.aboutus-title {
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin: 0 0 39px;
+    padding: 0 0 11px;
+    position: relative;
+    text-transform: uppercase;
+    color: #000;
+}
+.aboutus-title::after {
+    background: #fdb801 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 54px;
+}
+.aboutus-text {
+    color: #606060;
+    font-size: 13px;
+    line-height: 22px;
+    margin: 0 0 35px;
+}
+
+a:hover, a:active {
+    color: #ffb901;
+    text-decoration: none;
+    outline: 0;
+}
+.aboutus-more {
+    border: 1px solid #fdb801;
+    border-radius: 25px;
+    color: #fdb801;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0;
+    padding: 7px 20px;
+    text-transform: uppercase;
+}
+.feature .feature-box .iconset {
+    background: #fff none repeat scroll 0 0;
+    float: left;
+    position: relative;
+    width: 18%;
+}
+.feature .feature-box .iconset::after {
+    background: #fdb801 none repeat scroll 0 0;
+    content: "";
+    height: 150%;
+    left: 43%;
+    position: absolute;
+    top: 100%;
+    width: 1px;
+}
+
+.feature .feature-box .feature-content h4 {
+    color: #0f0f0f;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 0 0 5px;
+}
+
+
+.feature .feature-box .feature-content {
+    float: left;
+    padding-left: 28px;
+    width: 78%;
+}
+.feature .feature-box .feature-content h4 {
+    color: #0f0f0f;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 0 0 5px;
+}
+.feature .feature-box .feature-content p {
+    color: #606060;
+    font-size: 13px;
+    line-height: 22px;
+}
+.icon {
+    color : #f4b841;
+    padding:0px;
+    font-size:40px;
+    border: 1px solid #fdb801;
+    border-radius: 100px;
+    color: #fdb801;
+    font-size: 28px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    width: 70px;
+}
+/**********************************/
+  .shape {
+    width: 100%;
+    transition: all .3s;
+  }
+  
+  .shape-container:hover .shape {
+      transform: skewY(-1deg) translateY(-10px);
+  }
+  
+  .originTopRight {
+      transform-origin: top right;
+  }
+  .originBottomLeft {
+    transform-origin: bottom left;
+  }
+/**********************************/
+  .box
+{
+ 
+  color: #fff;
+  padding: 10px;
+
+}
+
+.logo
+{
+  grid-area: logo;
+}
+ 
+.menu
+{
+  grid-area: menu;
+}
+ 
+.breadcrumb
+{
+  grid-area: breadcrumb;
+}
+ 
+.main
+{
+  grid-area: main;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 20px;
+}
+ 
+.sidebar
+{
+  grid-area: sidebar;
+}
+ 
+.footer
+{
+  grid-area: footer;
+}
+ 
+@media screen and (min-width: 768px)
+{
+  body
+  {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, minmax(100px, auto));
+    grid-template-areas:  "logo menu menu menu menu menu"
+                          "breadcrumb breadcrumb breadcrumb breadcrumb breadcrumb breadcrumb"
+                          "main main main main sidebar sidebar"
+                          "footer footer footer footer footer footer";
+  }
+}
+
+/**********************************/
+.typewriter  {
+   
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 2px solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 2px; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(20, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }

@@ -1,0 +1,12 @@
+.reviewstyle{
+	
+	background: linear-gradient(rgba(0, 0, 0, 0.644), rgba(0,0,0,.7)), url("../images/forum-bricolage.jpg") no-repeat scroll left top / cover;
+    width: 100%;
+    padding: 90px;
+
+}
+.card{
+    
+    background: rgba(255, 255, 255, 0.753);
+  
+}

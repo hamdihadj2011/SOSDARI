@@ -1,0 +1,64 @@
+#logo-header-image{
+height: 90px;
+width: 150px;
+}
+.backgroundimg{
+background: linear-gradient(rgba(0, 0, 0, 0.644), rgba(0,0,0,.7)), url("../images/forum-bricolage.jpg") no-repeat scroll left top / cover;
+width: 100%;}
+#logo-header-imageincontact{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  -webkit-animation: super-rainbow 15s infinite alternate linear; 
+    -moz-animation: super-rainbow 15s infinite alternate linear; 
+    }
+    @-webkit-keyframes super-rainbow { /*change color animation and zoom animation for heart image  */
+      0% { opacity: 0; -webkit-transform: scale(0.5); }
+      10% { opacity: 1; -webkit-transform: scale(1); }
+      20%   { background: rgb(57, 136, 182); } 
+      30%  { background: orange; }
+      40%  { background: yellow; }
+      60%  { background: green; }
+      80%  { background: blue; }
+      100% { background: violet; }
+  }
+#difinitionstyle{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        color: rgb(173, 173, 173);
+        text-align: justify;
+          }
+          .displaydef{
+            display: flex;
+            justify-content: space-around;
+            align-items: baseline;
+          }
+#twolinksgrid{
+display: flex;
+flex-direction: column;
+margin-left: 30%;
+
+
+
+          }     
+.Navbar-pers{
+    height:    90px;
+}
+.carouselsosdari{
+  padding: 5%;
+}
+@media screen and (max-width: 1024px) {
+  .carouselsosdari{
+    padding: 1%;
+  }
+  .carouselsosdari p{
+    font-size: 18px;
+  }
+  .buttonsevenseven{
+    font-size: 15px;
+   
+  }
+}

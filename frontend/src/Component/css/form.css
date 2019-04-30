@@ -1,0 +1,28 @@
+input[type=text] {
+    width: 100%;
+  
+  }
+  input[type=date] {
+    width: 100%;
+  
+  }
+  input[type=time] {
+    width: 100%;
+  
+  }
+  .editstyle{
+	
+    background: linear-gradient(rgba(0, 0, 0, 0.644), rgba(0,0,0,.7)), url("../images/forum-bricolage.jpg") no-repeat scroll left top / cover;
+      width: 100%;
+    
+  }
+  .editformstyle{
+      
+    background: rgba(255, 255, 255, 0.753);
+    margin: 5%;
+    border-radius: 15px;
+  }
+  .editformstyleinside{
+      
+   padding: 5%;
+  }

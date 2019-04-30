@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  cursor: default;
+  color: #666;
+  font-family: sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+  td, th {
+    padding: 15px;
+    border-bottom: 1px solid #EEE;
+    font-weight: normal;
+  }
+
+  th {
+    background-color: #F8F8F8;
+    text-align: left;
+    color: #333;
+  }
+
+  tr {
+    background-color: #FAFAFA;
+  }
+}

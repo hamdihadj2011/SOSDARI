@@ -1,0 +1,13 @@
+
+  
+  .home{
+    display: flex;
+    padding:4%;
+    justify-content: space-around;
+    width: 100%
+  }
+  
+  .tab{
+    width: 45%
+  }
+  
